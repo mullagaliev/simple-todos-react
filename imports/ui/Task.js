@@ -89,7 +89,7 @@ export default class Task extends Component {
                 <span className="text">
                      <strong>{this.props.task.username}</strong>:
                      <input type="text" value={this.props.task.text}
-                           onChange={this.updateTaskText}/>
+                           onChange={this.updateTaskText} style={{marginLeft: '5px'}}/>
                 </span>
             </li>
         );
